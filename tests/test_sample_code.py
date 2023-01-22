@@ -14,4 +14,13 @@ class SampleTest(unittest.TestCase):
 
     def test_function(self):
         print('in test()')
-        self.assertEqual(self.add(1,2), 3)
+        self.assertEqual(self.model_object.add(1,2), 3)
+    def test_division(self):
+        print('in test()')
+        self.assertEqual(self.model_object.multiply(1,2), 2)
+    def test_division(self):
+        print('in test()')
+        self.assertEqual(self.model_object.subtract(1,2), -1)
+
+if __name__ == "__main__":
+    unittest.main()
