@@ -18,7 +18,7 @@ class SampleTest(unittest.TestCase):
     def test_division(self):
         print('in test()')
         self.assertEqual(self.model_object.multiply(1,2), 2)
-    def test_division(self):
+    def test_substract(self):
         print('in test()')
         self.assertEqual(self.model_object.subtract(1,2), -1)
 
